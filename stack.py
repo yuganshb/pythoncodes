@@ -25,15 +25,6 @@ class mystack:
   def print(self):
     print(self.stack[:self.t+1])
 
-a=mystack([5,2,31,4,6,7])
-print(a.isempty())
-a.print()
-a.pop()
-a.print()
-a.pop()
-a.print()
-a.push(24)
-a.print()
 
 
 
