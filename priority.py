@@ -34,15 +34,3 @@ class prq:
   
   def parent(self,i):
     return (i-1)//2
-
-a=prq([5,6,7,2,11,9,10])
-a.printheap()
-a.increase_key(3,12)
-a.printheap()
-print(a.lenheap())
-a.insert(24)
-a.printheap()
-a.remove_maximum()
-a.printheap()
-a.remove_maximum()
-a.printheap()
